@@ -1,231 +1,54 @@
-# 🌱 Krishi Mitra (कृषि मित्र)
+# 📚 Krishi Mitra Documentation
 
-**AI-Powered Agricultural Platform for Indian Farmers**
+This folder contains all documentation files for the Krishi Mitra project.
 
-[![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![ML Accuracy](https://img.shields.io/badge/ML_Accuracy-99.77%25-success.svg)](https://github.com/your-username/Krishi-Mitra)
+## 📑 Documentation Files
 
----
+### 🏗️ Comprehensive Component Documentation
+- **[FRONTEND_DOCUMENTATION.md](./FRONTEND_DOCUMENTATION.md)** - Complete frontend architecture, components, pages, API integration, i18n, styling, and deployment guide (9.3KB)
+- **[BACKEND_DOCUMENTATION.md](./BACKEND_DOCUMENTATION.md)** - Detailed backend architecture, database models, API endpoints, services, authentication, and deployment (11.4KB)
+- **[ML_SERVICE_DOCUMENTATION.md](./ML_SERVICE_DOCUMENTATION.md)** - ML model details, training process, API endpoints, feature engineering, performance metrics, and deployment (5.0KB)
 
-## 📖 Overview
+### 📋 Project Overview
+- **[PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md)** - Comprehensive project overview including tech stack, features, architecture, and implementation status (36.1KB)
 
-Krishi Mitra (Friend of Farmers) is a comprehensive AI-powered agricultural platform designed to help Indian farmers make data-driven decisions. It provides crop recommendations, real-time market prices, weather forecasts, soil analysis, and crop rotation management.
+### 🎯 Feature Guides
+- **[SOIL_DATA_FEATURES_GUIDE.md](./SOIL_DATA_FEATURES_GUIDE.md)** - Complete guide to soil data features and functionality (14.2KB)
+- **[SOIL_DATA_ENHANCEMENTS.md](./SOIL_DATA_ENHANCEMENTS.md)** - Details on soil data enhancements and improvements (11.0KB)
+- **[TASK1_COMPLETE.md](./TASK1_COMPLETE.md)** - Task 1 completion documentation (9.5KB)
 
-### ✨ Key Features
+### ⚙️ Setup & Configuration
+- **[TRANSLATION_GUIDE.md](./TRANSLATION_GUIDE.md)** - Internationalization and translation guide (7.0KB)
+- **[WEATHER_API_SETUP.md](./WEATHER_API_SETUP.md)** - Weather API configuration guide (1.5KB)
+- **[AGMARKNET_API_SETUP.md](./AGMARKNET_API_SETUP.md)** - Agmarknet API setup instructions (2.8KB)
 
-- 🤖 **AI Crop Recommendations** - ML-powered suggestions with 99.77% accuracy
-- 💰 **Live Market Prices** - Real-time commodity prices from government APIs
-- 🌦️ **Weather Forecasts** - 7-day weather predictions with agricultural alerts
-- 🌾 **Crop Management** - Track planting, growth, and harvest
-- 🔄 **Crop Rotation** - Optimize soil health with rotation analysis
-- 🌍 **Soil Data Analysis** - NPK levels, pH, and fertility tracking
-- 🤖 **AI Chat Assistant** - Conversational AI for farming queries
-- 🌐 **Bilingual Support** - Full English & Hindi interface (1900+ translations)
+## 🗂️ Documentation Organization
 
----
+All project documentation is centralized in this folder for easy access and maintenance.
 
-## 🏗️ Architecture
+### Quick Navigation
 
-**3-Tier Microservices Architecture:**
+**For Developers:**
+1. Start with [PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md) for project overview
+2. Read [FRONTEND_DOCUMENTATION.md](./FRONTEND_DOCUMENTATION.md) for React/UI development
+3. Read [BACKEND_DOCUMENTATION.md](./BACKEND_DOCUMENTATION.md) for Node.js/Express API development
+4. Read [ML_SERVICE_DOCUMENTATION.md](./ML_SERVICE_DOCUMENTATION.md) for ML model training and deployment
 
-```
-Frontend (React + Vite)
-    ↓
-Backend (Node.js + Express)
-    ↓
-┌─────────┬─────────┬──────────┐
-MongoDB   ML Service  External
-          (Flask)     APIs
-```
+**For Setup:**
+1. [AGMARKNET_API_SETUP.md](./AGMARKNET_API_SETUP.md) - Market price API configuration
+2. [WEATHER_API_SETUP.md](./WEATHER_API_SETUP.md) - Weather data integration
+3. [TRANSLATION_GUIDE.md](./TRANSLATION_GUIDE.md) - Adding new translations
 
----
+**For Feature Understanding:**
+1. [SOIL_DATA_FEATURES_GUIDE.md](./SOIL_DATA_FEATURES_GUIDE.md) - Soil analysis features
+2. [SOIL_DATA_ENHANCEMENTS.md](./SOIL_DATA_ENHANCEMENTS.md) - Recent soil improvements
 
-## 🚀 Tech Stack
+## 📊 Documentation Statistics
 
-### Frontend
-- **React 18.3.1** - UI library
-- **Vite 5.4.9** - Build tool
-- **TailwindCSS 3.4.12** - Styling
-- **i18next** - Internationalization (English & Hindi)
+- **Total Documentation Files:** 11
+- **Total Lines of Documentation:** 3,846+ lines
+- **Components Covered:** Frontend (React), Backend (Node.js), ML Service (Python)
+- **API Endpoints Documented:** 20+
+- **Code Examples:** 100+
 
-### Backend
-- **Node.js + Express 4.19.2** - API server
-- **MongoDB + Mongoose 8.8.1** - Database
-- **bcryptjs** - Authentication
-- **Nodemailer** - Email service
-
-### ML Service
-- **Python 3.9+ with Flask** - ML API
-- **scikit-learn** - Machine learning
-- **Random Forest Classifier** - 99.77% accuracy
-- **22 Crop Varieties** - Rice, Wheat, Cotton, Maize, etc.
-
-### External APIs
-- **Agmarknet API** - Government market prices
-- **OpenWeather API** - Weather data
-- **SoilGrids API** - Global soil data
-
----
-
-## 📦 Installation & Setup
-
-### Prerequisites
-- Node.js 18+
-- Python 3.9+
-- MongoDB (local or Atlas)
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/Krishi-Mitra.git
-cd Krishi-Mitra
-```
-
-### 2. Backend Setup
-```bash
-cd backend
-npm install
-cp .env.example .env
-# Edit .env with your credentials
-npm start
-```
-
-### 3. Frontend Setup
-```bash
-cd frontend
-npm install
-cp .env.example .env
-# Edit .env with API URL
-npm run dev
-```
-
-### 4. ML Service Setup
-```bash
-cd ml-service
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-```
-
----
-
-## 🔧 Environment Variables
-
-### Backend (.env)
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/krishimitra
-ML_SERVICE_URL=http://127.0.0.1:5001
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password
-AGMARKNET_API_KEY=your-api-key
-```
-
-### Frontend (.env)
-```env
-VITE_API_URL=http://127.0.0.1:5000
-VITE_OPENWEATHER_API_KEY=your-weather-api-key
-```
-
----
-
-## 📚 Documentation
-
-Comprehensive documentation available in the [`/docs`](./docs) folder:
-
-- **[Frontend Documentation](./docs/FRONTEND_DOCUMENTATION.md)** - React components, pages, API integration
-- **[Backend Documentation](./docs/BACKEND_DOCUMENTATION.md)** - API endpoints, database models, services
-- **[ML Service Documentation](./docs/ML_SERVICE_DOCUMENTATION.md)** - Model training, deployment, performance
-- **[Project Summary](./docs/PROJECT_SUMMARY.md)** - Complete project overview
-
----
-
-## 🎯 Features in Detail
-
-### 🤖 AI Crop Recommendation
-- 12-parameter analysis (N, P, K, temperature, humidity, pH, rainfall, state, season, soil type, irrigation, farm size)
-- Random Forest ML model with 99.77% accuracy
-- Confidence scores and alternative suggestions
-- Detailed farming tips and reasoning
-
-### 💰 Market Prices
-- Live commodity prices from Agmarknet (Government of India)
-- State/District filtering (19+ states)
-- MSP (Minimum Support Price) comparison
-- Price alerts with database persistence
-- Trending analysis (↑/↓)
-
-### 🔄 Crop Rotation
-- Pattern analysis with severity levels (Critical/Caution/Good)
-- Soil fertility trend tracking with sparkline charts
-- Prioritized recommendations (numbered 1-2-3)
-- Expandable educational guides (Hindi + English)
-- Before/After soil health tracking
-
-### 🌍 Soil Data
-- NPK (Nitrogen, Phosphorus, Potassium) levels
-- pH and organic matter analysis
-- SoilGrids API integration
-- Color-coded health indicators
-- Historical data tracking
-
----
-
-## 🌐 Supported Languages
-
-- 🇬🇧 **English** - Full interface
-- 🇮🇳 **हिंदी (Hindi)** - Complete translation (1900+ keys)
-
----
-
-## 📊 Project Statistics
-
-- **Lines of Code:** 16,000+
-- **Pages:** 10 complete pages
-- **API Endpoints:** 20+
-- **Database Models:** 5 (User, Crop, Alert, CropRotation, Conversation)
-- **Supported Crops:** 22 varieties
-- **ML Model Accuracy:** 99.77%
-- **States Supported:** 19+ Indian states
-- **Translation Keys:** 1900+
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 👥 Team
-
-**Developed by:** Riya Kushwah
-
----
-
-## 📧 Contact
-
-**Project Link:** https://github.com/Riyaaaaaaaaaaaaa/Krishi-Mitra
-
-**Email:** riyarajawat212@gmail.com
-
----
-
-## 🙏 Acknowledgments
-
-- Government of India for Agmarknet API
-- OpenWeather for weather data API
-- ISRIC for SoilGrids API
-- Indian farmers for inspiration
-
----
-
-**Made with ❤️ for Indian Farmers**
+**Last Updated**: November 23, 2025
