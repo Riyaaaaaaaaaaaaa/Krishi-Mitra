@@ -1,0 +1,47 @@
+{
+  "state": [
+    "Andhra Pradesh",
+    "Assam",
+    "Bihar",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jammu and Kashmir",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Tamil Nadu",
+    "Telangana",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal"
+  ],
+  "season": [
+    "Kharif",
+    "Rabi",
+    "Year-round",
+    "Zaid"
+  ],
+  "soil_type": [
+    "Clay",
+    "Clay-Loam",
+    "Loam",
+    "Sandy",
+    "Sandy-Loam"
+  ],
+  "irrigation": [
+    "Drip",
+    "Flood",
+    "Rainfed",
+    "Sprinkler"
+  ],
+  "farm_size": [
+    "Large",
+    "Medium",
+    "Small"
+  ]
+}
