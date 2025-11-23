@@ -26,12 +26,6 @@ Krishi Mitra (Friend of Farmers) is a comprehensive AI-powered agricultural plat
 
 ---
 
-## 🎥 Screenshots
-
-[Add screenshots here]
-
----
-
 ## 🏗️ Architecture
 
 **3-Tier Microservices Architecture:**
