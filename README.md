@@ -1,8 +1,7 @@
-# 🌾 Krishi Mitra (कृषि मित्र)
+# 🌱 Krishi Mitra (कृषि मित्र)
 
 **AI-Powered Agricultural Platform for Indian Farmers**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
@@ -19,17 +18,11 @@ Krishi Mitra (Friend of Farmers) is a comprehensive AI-powered agricultural plat
 - 🤖 **AI Crop Recommendations** - ML-powered suggestions with 99.77% accuracy
 - 💰 **Live Market Prices** - Real-time commodity prices from government APIs
 - 🌦️ **Weather Forecasts** - 7-day weather predictions with agricultural alerts
-- 🌱 **Crop Management** - Track planting, growth, and harvest
+- 🌾 **Crop Management** - Track planting, growth, and harvest
 - 🔄 **Crop Rotation** - Optimize soil health with rotation analysis
 - 🌍 **Soil Data Analysis** - NPK levels, pH, and fertility tracking
 - 🤖 **AI Chat Assistant** - Conversational AI for farming queries
 - 🌐 **Bilingual Support** - Full English & Hindi interface (1900+ translations)
-
----
-
-## 🎥 Screenshots
-
-[Add screenshots here]
 
 ---
 
@@ -212,23 +205,17 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👥 Team
 
-**Developed by:** [Your Name/Team Name]
+**Developed by:** Riya Kushwah
 
 ---
 
 ## 📧 Contact
 
-**Project Link:** [https://github.com/YOUR_USERNAME/Krishi-Mitra](https://github.com/YOUR_USERNAME/Krishi-Mitra)
+**Project Link:** https://github.com/Riyaaaaaaaaaaaaa/Krishi-Mitra
 
-**Email:** your-email@example.com
+**Email:** riyarajawat212@gmail.com
 
 ---
 
